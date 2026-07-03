@@ -135,7 +135,7 @@ export const events: EventItem[] = [
   {
     id: 'pmb-comedy-night',
     title: 'PMB Comedy Night',
-    date: 'Fri, 19 Jun - 19:30',
+    date: 'Sat, 4 Jul - 19:30',
     venue: 'The Hexagon Theatre',
     distance: 1.9,
     category: 'Comedy',
@@ -146,7 +146,7 @@ export const events: EventItem[] = [
   {
     id: 'afro-house-live',
     title: 'Afro House Live',
-    date: 'Sat, 20 Jun - 21:00',
+    date: 'Sun, 5 Jul - 21:00',
     venue: 'Tatham Art Gallery Courtyard',
     distance: 0.7,
     category: 'Nightlife',
@@ -157,7 +157,7 @@ export const events: EventItem[] = [
   {
     id: 'open-mic-poetry',
     title: 'Open Mic & Poetry',
-    date: 'Sun, 21 Jun - 17:00',
+    date: 'Wed, 8 Jul - 17:00',
     venue: 'Liberty Midlands Mall',
     distance: 4.4,
     category: 'Arts',
@@ -168,7 +168,7 @@ export const events: EventItem[] = [
   {
     id: 'midlands-jazz-sunset',
     title: 'Midlands Jazz Sunset',
-    date: 'Thu, 25 Jun - 18:00',
+    date: 'Fri, 10 Jul - 18:00',
     venue: 'Golden Horse',
     distance: 2.6,
     category: 'Nightlife',
@@ -179,7 +179,7 @@ export const events: EventItem[] = [
   {
     id: 'maker-market',
     title: 'Maker Market PMB',
-    date: 'Sat, 27 Jun - 10:00',
+    date: 'Sat, 11 Jul - 10:00',
     venue: 'Cascades Lifestyle Centre',
     distance: 6.1,
     category: 'Arts',
@@ -190,7 +190,7 @@ export const events: EventItem[] = [
   {
     id: 'laugh-lab',
     title: 'Laugh Lab: New Sets',
-    date: 'Wed, 1 Jul - 19:00',
+    date: 'Wed, 15 Jul - 19:00',
     venue: 'Scottsville Social Club',
     distance: 3.3,
     category: 'Comedy',
