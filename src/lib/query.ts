@@ -11,7 +11,7 @@ type QueryState<T> = {
 const cache = new Map<string, unknown>();
 const inFlight = new Map<string, Promise<unknown>>();
 
-const serializeKey = (key: QueryKey) => (Array.isArray(key) ? JSON.stringify(key) : key);
+const serializeKey = (key: QueryKey): string => (typeof key === 'string' ? key : JSON.stringify(key));
 
 export function useQuery<T>(key: QueryKey, fetcher: () => Promise<T>): QueryState<T> {
   const cacheKey = useMemo(() => serializeKey(key), [key]);
