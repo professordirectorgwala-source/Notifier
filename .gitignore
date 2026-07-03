@@ -1,8 +1,12 @@
 .expo/
 node_modules/
+node_modules.old*/
 dist/
 web-build/
 .DS_Store
+expo-web.*.log
+edge-dom*.txt
+notifier-*-smoke.png
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
