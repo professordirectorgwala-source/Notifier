@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Notifier",
+    "slug": "notifier",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "notifier",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#F6F7F8"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Notifier uses your location to show nearby places and events, and to share live location with chosen circles only when you choose."
+      }
+    },
+    "android": {
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "FOREGROUND_SERVICE"
+      ]
+    },
+    "plugins": [
+      "expo-location"
+    ]
+  }
+}
